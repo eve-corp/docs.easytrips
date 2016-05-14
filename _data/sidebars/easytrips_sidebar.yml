@@ -1,0 +1,37 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Easy Trips Knowledgebase
+  version: 0.5
+  folders:
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /
+      type: homepage
+      output: web, pdf
+
+    - title: Introduction
+      url: /easytrips_introduction/
+      output: web, pdf
+
+    - title: Supported features
+      url: /easytrips_supported_features/
+      output: web, pdf
+
+#
+#  - title: Handling reviews
+#    output: web, pdf
+#
+#    folderitems:
+#    - title: Commenting on files
+#      url: /easytrips_commenting_on_files/
+#      output: web, pdf
+
+#    - title: Git collaboration
+#      url: /easytrips_git_collaboration/
+#      output: web, pdf
