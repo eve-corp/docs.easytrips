@@ -1,18 +1,14 @@
 ---
-title: Submiting a new Field Trip
+title: Submiting a New Trip Request
 keywords: teachers, schools
 sidebar: docs_sidebar
-toc: false
+toc: true
 permalink: /submitting_a_new_trip/
 ---
 
 ## Creating a New Trip Request
 
-
-![StartNewTripRequest.png](/images/guide/StartNewTripRequest.png)
-
-Click "Create a New Request" to start the field trip scheduling process.
-
+Click "Create a New Request" from the Hub or your Dashboard to start the field trip scheduling process.
 
 ## Basic Information
 
@@ -29,25 +25,43 @@ This is where you will fill in the adiminstrative details of your trip -- it wil
     * What is the purpose of this trip?
 
 
-![SchoolSelection.png](/images/guide/trip_submission/SchoolSelection.png)
+### School Selection
+
+    Tip!  You will only see this if you have been granted access to multiple schools.
 
 To select a school, start by typing the school name or click the drop down box.
 
-![BasicTripInfo.png](/images/guide/trip_submission/BasicTripInfo.png)
+![SchoolSelection.png](/images/guide/trip_submission/SchoolSelection.png)
+
+### Basic Information
 
 Fill out basic information: Name and phone of the instructor, student grade level, number of adults/chaperons, and the number of students. 
 
+![BasicTripInfo.png](/images/guide/trip_submission/BasicTripInfo.png)
+
+Click the "Trip Type" drop down arrow and choose either "Athletic" or "Field Trip." 
+
+<!--
+```
+Field Trip or Athletic?
+
+Field Trip includes non-athletic activities such as museums, tours, seminars, outdoor excursions, festivals, historic sites, etc.
+
+Athletic includes sports-related trips such as soccer, basketball, football, baseball, etc."    
+```
+-->
+
 ![TripType.png](/images/guide/trip_submission/TripType.png)
-
-Click the "Trip Type" drop down arrow and choose either "Athletic" or "Field Trip." Athletic includes sports-related trips such as soccer, basketball, football, baseball, etc." Field Trip includes non-athletic activities such as museums, tours, seminars, outdoor excursions, festivals, historic sites, etc.   
-
-![TripPurpose.png](/images/guide/trip_submission/TripPurpose.png)
 
 Type in the reason for the trip in the "Trip Purpose" comment box. Example: "Botany tour of the Seattle Japanese Garden."
 
-![NewTripPage1Next.png](/images/guide/trip_submission/NewTripPage1Next.png)
+![TripPurpose.png](/images/guide/trip_submission/TripPurpose.png)
 
-Click the Next button after you finish filling out all of the fields. You will receive an error prompting you to finish incomplete areas if you do not include: school name, trip purpose, number of adults, number of students, grade or activity, and instructor name along with instructor phone number. 
+Click "Next" after you finish filling out all of the fields. 
+
+You will receive an error prompting you to finish incomplete areas if you do not include: school name, trip purpose, number of adults, number of students, grade or activity, and instructor name along with instructor phone number. 
+
+![NewTripPage1Next.png](/images/guide/trip_submission/NewTripPage1Next.png)
 
 
 ## Scheduling
@@ -61,6 +75,7 @@ This is where you answer the questions
 
 ### Field Descriptions
 <!-- http://www.tablesgenerator.com/markdown_tables -->
+
 | Field                  | Required                                      | Description                                                                                                                      | Notes                                                             |
 |------------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | `Date of Trip`           | Yes                                           | What day will this trip begin?                                                                                                   |                                                                   |
@@ -130,7 +145,7 @@ This list will automatically be filtered for your school.
     Note: Authorizers must be previously set up in Easy Trips.  If you do not see the person you are looking for, please contact your coordinator for assistance.
 
 
-#### If you require multiple levels of authorization 
+### If you require multiple levels of authorization 
 
 Click `Add another authorizer`.
 
@@ -138,14 +153,13 @@ As above, select the appropriate Authorizer from the drop-down list.
 
     Transportation Approval:  You do not need to specify Transportation for authorization.  All requests will be routed to transportation after other approvals have been met.  
 
-
+<!--
 ## Budgeting <sup>[?](#myfootnote1)</sup>
 
 Select the appropriate budgeting code(s) from the drop down lists.  These will be automatically filtered for your school.
+-->
 
 
-
-<div style="font-size: .9em;">
-
+<div style="font-size: .9em; margin-left: 20px; margin-top: 20px;" >
 <a name="optional">?</a>: This feature is optionally enabled by your transportation department and may not be enabled for your version.
 </div>
