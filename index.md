@@ -9,6 +9,9 @@ toc: false
 
 ### Effortless Field Trip Management
 
+<script type="text/javascript">
+window.location = '/getting_started'
+</script>
 
 <!-- Highlights -->
 <div class="row">
