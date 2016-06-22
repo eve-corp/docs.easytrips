@@ -14,5 +14,9 @@ The following files, directories and their contents are copyrighted. You may not
 * docs/
 
 
+## Running
+`> bundle exec jekyll serve`
+
+
 ----
 Initial theme forked from (https://github.com/tomjohnson1492/documentation-theme-jekyll)

@@ -6,6 +6,7 @@ summary: "You data is protected with modern security best practices."
 icon: lock
 featured: true
 order: 2
+showlink: true
 ---
 
 ## From the beginning

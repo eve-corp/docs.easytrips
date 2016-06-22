@@ -6,6 +6,7 @@ summary: "Accomplish what you need without the fuss (no matter who you are)."
 icon: check
 featured: true
 order: 1
+showlink: false
 ---
 
 Every effort has been made to keep Easy Trips as simple as possible while still providing a full field trip application program. This goal is what inspired the name, and we take all feedback on how to improve it very seriously.

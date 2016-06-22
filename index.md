@@ -7,7 +7,7 @@ toc: false
 
 ---
 
-### Field Trip Software Kept Simple
+### Effortless Field Trip Management
 
 
 <!-- Highlights -->
@@ -30,7 +30,9 @@ toc: false
                 <div class="panel-body">
                     <h4>{{ feature.benefit }}</h4>
                     <p>{{ feature.summary }}</p>
-                    <a href="{{ feature.url }} " class="btn btn-primary">Learn More</a>
+                      {% if feature.showlink == 'true' %}
+                     <a href="{{ feature.url }} " class="btn btn-primary">Learn More</a>
+                {% endif %}
                 </div>
             </div>
         </div>
@@ -106,7 +108,9 @@ toc: false
             <div class="media-body">
                 <h4 class="media-heading">{{ feature.benefit }}</h4>
                 <p>{{ feature.summary }}</p>
-                <a href="{{ feature.url }} " class="btn btn-primary">Learn More</a>
+                 {% if feature.showlink == 'true' %}
+                     <a href="{{ feature.link != '' ? feature.link : feature.url }} " class="btn btn-primary">Learn More</a>
+                {% endif %}
             </div>
         </div>
         </div>

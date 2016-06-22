@@ -1,0 +1,26 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+entries:
+- title: sidebar
+  product: Easy Trips User Guide
+  version: 0.1
+  folders:
+
+  - title: Easy Trips Users Guide
+    output: web
+    folderitems:
+    - title: Home
+      url: /getting_started
+      output: web
+    - title: Logging In
+      url: /logging_in/
+      output: web
+    - title: The Hub
+      url: /field_trip_hub/
+      output: web
+    - title: Submitting a New Trip
+      url: /submitting_a_new_trip/
+      output: web
+    - title: Managing Other Users
+      url: /user_management/
+      output: web
+

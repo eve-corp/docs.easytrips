@@ -3,6 +3,9 @@
 topnav:
 - title: Topnav
   items:
-    - title: News
-      url: /news/
+    - title: Register
+      external_url: https://easytrips.azurewebsites.net/Account/Register
+    - title: Login
+      external_url: https://easytrips.azurewebsites.net/Account/Login
+
 

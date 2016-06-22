@@ -3,8 +3,16 @@ title: Submiting a new Field Trip
 keywords: teachers, schools
 sidebar: docs_sidebar
 toc: false
-permalink: /submitting-a-new-trip/
+permalink: /submitting_a_new_trip/
 ---
+
+## Creating a New Trip Request
+
+
+![StartNewTripRequest.png](/images/guide/StartNewTripRequest.png)
+
+Click "Create a New Request" to start the field trip scheduling process.
+
 
 ## Basic Information
 
@@ -19,6 +27,27 @@ This is where you will fill in the adiminstrative details of your trip -- it wil
     * Field trip vs Athletic
 * Why?
     * What is the purpose of this trip?
+
+
+![SchoolSelection.png](/images/guide/trip_submission/SchoolSelection.png)
+
+To select a school, start by typing the school name or click the drop down box.
+
+![BasicTripInfo.png](/images/guide/trip_submission/BasicTripInfo.png)
+
+Fill out basic information: Name and phone of the instructor, student grade level, number of adults/chaperons, and the number of students. 
+
+![TripType.png](/images/guide/trip_submission/TripType.png)
+
+Click the "Trip Type" drop down arrow and choose either "Athletic" or "Field Trip." Athletic includes sports-related trips such as soccer, basketball, football, baseball, etc." Field Trip includes non-athletic activities such as museums, tours, seminars, outdoor excursions, festivals, historic sites, etc.   
+
+![TripPurpose.png](/images/guide/trip_submission/TripPurpose.png)
+
+Type in the reason for the trip in the "Trip Purpose" comment box. Example: "Botany tour of the Seattle Japanese Garden."
+
+![NewTripPage1Next.png](/images/guide/trip_submission/NewTripPage1Next.png)
+
+Click the Next button after you finish filling out all of the fields. You will receive an error prompting you to finish incomplete areas if you do not include: school name, trip purpose, number of adults, number of students, grade or activity, and instructor name along with instructor phone number. 
 
 
 ## Scheduling
@@ -45,6 +74,24 @@ This is where you answer the questions
 | `<- Pickup Time`         | Yes, if the trip is not one-way               | What time should the bus be available for you to start loading for the return trip?                                              |                                                                   |
 | `<- Drop off Time`       | Yes, if the trip is not one-way               | What time should you be back at the school?                                                                                      |                                                                   |
 
+
+![OriginSchoolSelection.png](/images/guide/trip_submission/OriginSchoolSelection.png)
+
+The origin of the trip will default to the school that was previously selected on the "Basic Information" page. Click the drop down or start typing a different school name to change the origin.
+
+![DestinationSelection.png](/images/guide/trip_submission/DestinationSelection.png)
+
+Start typing the name of the destination or click the drop-down arrow for a list of locations. 
+
+![CreateNewDestination.png](/images/guide/trip_submission/CreateNewDestination.png)
+ 
+To create a new destination, click the "+" symbol, then fill out the name and address of the destination. 
+
+![RoundTrip.png](/images/guide/trip_submission/RoundTrip.png)
+
+Select "Round Trip" or "One Way". Enter the time for pick-up and drop-off in their respective text boxes. Subsequent dates for the same trip auto-populate with the first date that is selected, but can be changed if the return date is different from the original departure date. 
+
+
 ## Additional Information
 
 This is where you can add special instructions for your transportation department.  
@@ -56,6 +103,22 @@ Some common examples may include:
 * *"Students will have wet bathing suits"*
 
 * *"We will need an extra bus for large musical instruments -- ex. timpani, marimba"*
+
+
+![AdditionalInformation.png](/images/guide/trip_submission/AdditionalInformation.png)
+
+Click NEXT after selecting any special instructions and/or providing additional comments.  
+
+## Review Submission
+
+![ReviewSubmissionTopHalf.png](/images/guide/trip_submission/ReviewSubmissionTopHalf.png)
+
+After filling out all of the required information, you will be provided an opportunity to review all of the details for accuracy. If any changes need to be made, click the "Back" button to edit previous fields.
+
+![ReviewSubmissionBottomHalf.png](/images/guide/trip_submission/ReviewSubmissionBottomHalf.png)
+
+Once all of the details are finalized, click "Submit" in the bottom right corner of the Review page. 
+
 
 ## Authorizations <sup>[?](#optional)</sup>
 
@@ -86,4 +149,3 @@ Select the appropriate budgeting code(s) from the drop down lists.  These will b
 
 <a name="optional">?</a>: This feature is optionally enabled by your transportation department and may not be enabled for your version.
 </div>
-

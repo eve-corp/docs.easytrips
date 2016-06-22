@@ -1,25 +1,33 @@
- 
+
+register:
+  title: "Register"
+  url: "https://easytrips.azurewebsites.net/Account/Register"
+  link: "<a href='https://easytrips.azurewebsites.net/Account/Register' title='Register for Easy Trips'>Register</a>"
+
+
+login:
+  title: "Login"
+  url: "https://easytrips.azurewebsites.net/Account/Login"
+  link: "<a href='https://easytrips.azurewebsites.net/Account/Login' title='Login to Easy Trips'>Login</a>"
+
+
 mydoc_release_notes_50:
   title: "5.0 Release notes"
   url: "/documentation-theme-jekyll/mydoc_release_notes_50/ '5.0 Release notes'"
   link: "<a href='/documentation-theme-jekyll/mydoc_release_notes_50/' title='5.0 Release notes'>5.0 Release notes</a>"
 
-
- 
 mydoc_introduction:
   title: "Introduction"
   url: "/documentation-theme-jekyll/mydoc_introduction/ 'Introduction'"
   link: "<a href='/documentation-theme-jekyll/mydoc_introduction/' title='Introduction'>Introduction</a>"
 
 
- 
 mydoc_supported_features:
   title: "Supported features"
   url: "/documentation-theme-jekyll/mydoc_supported_features/ 'Supported features'"
   link: "<a href='/documentation-theme-jekyll/mydoc_supported_features/' title='Supported features'>Supported features</a>"
 
 
- 
 mydoc_about:
   title: "About the theme author"
   url: "/documentation-theme-jekyll/mydoc_about/ 'About the theme author'"
@@ -34,8 +42,6 @@ mydoc_support:
 
 
 
-
- 
 mydoc_about_ruby_gems_etc:
   title: "About Ruby, Gems, Bundler, etc."
   url: "/documentation-theme-jekyll/mydoc_about_ruby_gems_etc/ 'About Ruby, Gems, Bundler, etc.'"
