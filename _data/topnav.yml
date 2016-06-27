@@ -9,5 +9,7 @@ topnav:
       external_url: https://easytrips.azurewebsites.net/User/Account/Register
     - title: Login
       external_url: https://easytrips.azurewebsites.net/User/Account/Login
+    - title: Contact Us
+      url: mailto:info@easytrips.xyz
 
 
