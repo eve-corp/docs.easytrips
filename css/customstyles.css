@@ -51,10 +51,10 @@ body {
     color: #d9534f;
 }
 .bs-callout-warning {
-    border-left-color: #f0ad4e;
+    border-left-color: #f1623d;
 }
 .bs-callout-warning h4 {
-    color: #f0ad4e;
+    color: #f1623d;
 }
 .bs-callout-info {
     border-left-color: #5bc0de;
@@ -433,6 +433,10 @@ ul#mysidebar {
 }
 /* end sidebar */
 
+.navbar-inverse {
+    background-color: #4c8fcb;
+}
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     border-radius:5px;
 }
@@ -530,7 +534,7 @@ table.profile thead tr th {
 }
 
 table.request thead tr th {
-    background-color: #ED1951;
+    background-color: #e8376b;
 }
 
 .audienceLabel {
@@ -596,7 +600,7 @@ a[data-toggle] {
     font-size:120%;
     color: #808080;
     margin:20px 0px 20px 0px;
-    border-left: 5px solid #ED1951;
+    border-left: 5px solid #e8376b;
     padding-left: 10px;
 
 }
@@ -611,7 +615,7 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
+h3 {color: #e8376b; font-weight:normal; font-size:130%;}
 h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 
 .alert, .callout {
@@ -999,8 +1003,12 @@ span.label.label-default {
     background-color: gray;
 }
 
+.text-primary {
+color: #8fc452;
+}
+
 span.label.label-primary {
-    background-color: #f0ad4e;
+    background-color: #f1623d;
 }
 .col-lg-12 .nav li a {background-color: white}
 
@@ -1008,7 +1016,7 @@ li.sidebarTitle {
     margin-top:40px;
     font-weight:normal;
     font-size:130%;
-    color: #ED1951;
+    color: #e8376b;
     margin-bottom:10px;
     margin-left: 5px;
 

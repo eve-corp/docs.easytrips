@@ -28,6 +28,7 @@ exclude:
   - mydoc
 # these are the files and directories that jekyll will exclude from the build
 
+feedback_phone: 360-790-3084
 feedback_email: info@easytrips.xyz
 # used as a contact email for the Feedback link in the top navigation bar
 

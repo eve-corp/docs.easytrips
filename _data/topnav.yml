@@ -3,9 +3,11 @@
 topnav:
 - title: Topnav
   items:
+    - title: User Guide
+      url: /getting_started
     - title: Register
-      external_url: https://easytrips.azurewebsites.net/Account/Register
+      external_url: https://easytrips.azurewebsites.net/User/Account/Register
     - title: Login
-      external_url: https://easytrips.azurewebsites.net/Account/Login
+      external_url: https://easytrips.azurewebsites.net/User/Account/Login
 
 

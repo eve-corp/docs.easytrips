@@ -1,0 +1,215 @@
+---
+title: 
+tags: [getting_started]
+sidebar: false
+type: homepage
+toc: false
+layout: none
+---
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+    <title>{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }}{% endif %} | {{ site.site_title
+        }}
+    </title>
+    <link rel="stylesheet" href="{{ " /css/syntax.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/home.css" type="text/css">
+    <link rel="stylesheet" href="/css/customstyles.css" type="text/css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
+    <link rel="shortcut icon" href="{{ " /images/favicon.ico " | prepend: site.baseurl  }}">
+
+</head>
+
+{% include topnav.html %}
+
+
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1 style="font-size: 3em;  font-weight: bold;">Effortless Field Trip Management</h1>
+            <hr>
+            <p>Software designed from the ground up with school districts' needs in mind and a special emphasis on EASY!</p>
+            <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Service Tabs -->
+<!--
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Service Tabs</h2>
+    </div>
+    <div class="col-lg-12">
+
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#simple" data-toggle="tab"><i class="fa fa-tree"></i> Simple</a>
+            </li>
+            <li class=""><a href="#secure" data-toggle="tab"><i class="fa fa-lock"></i> Secure</a>
+            </li>
+            <li class=""><a href="#support" data-toggle="tab"><i class="fa fa-phone"></i> Support</a>
+            </li>
+            <li class=""><a href="#start" data-toggle="tab"><i class="fa fa-car"></i> Start Today</a>
+            </li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="simple">
+                <h4>Simple</h4>
+                <p>Every effort has been made to keep Easy Trips as simple as possible while still providing a full field trip application program.  This goal is what inspired the name, and we take all feedback on how to improve it very seriously.  </p>
+                <p>In fact, we want to make it the best for you, providing feedback is always just one click away</p>
+                <TODO>picture of feedback icon inside app</TODO>
+            </div>
+            <div class="tab-pane fade" id="secure">
+                <h4>Secure</h4>
+                <p>Security was incorporated into the design of Easy Trips from day one.  With a strong background in consulting and developing applications to meet both Washington State and HIPAA data security standards, you can trust that we have your best interests in mind.</p>
+                <p>
+                <a href="{{site.data.urls.mydoc_iterm_profiles.link}}">Read more about security.</a>
+                </p>
+            </div>
+            <div class="tab-pane fade" id="support">
+                <h4>Support</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                <p>...</p>
+            <div class="tab-pane fade" id="start">
+                <h4>Start Today</h4>
+                <p>...</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+-->
+
+
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Reasons to use Easy Trips</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                {% assign features = site.features | sort: 'order' %} {% for feature in features %}
+                <div class="col-lg-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-{{ feature.icon }} fa-stack-1x fa-inverse"></i>
+                </span>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">{{ feature.benefit }}</h4>
+                            <p>{{ feature.summary }}</p>
+                            {% if feature.showlink == 'true' %}
+                            <a href="{{ feature.link != '' ? feature.link : feature.url }} " class="btn btn-primary">Learn More</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-pink" id="roadmap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Roadmap for the Future</h2>
+                <hr class="light">
+                <p class="text-faded">We're constantly looking for ways Easy Trips can serve you better.</p>
+                <img src="\images\roadmap-june2016.png" class="img-responsive" alt="Easy Trip Roadmap" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-dark" id="affordable">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Affordable</h2>
+                <hr class="light">
+                <p class="text-faded">At just $0.20 a student per school year, Easy Trips is affordable for everyone.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Try us today</h2>
+                <hr class="light">
+                <p class="text-faded">With Easy Trips, we don't make you go through a salesperson.</p>
+                <a href="{{site.data.urls.register.url}}" class="btn btn-default btn-xl sr-button">Sign up!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Questions?</h2>
+                <hr class="primary">
+                <p>Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x sr-contact"></i>
+                <p>{{site.feedback_phone}}</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                <p><a href="mailto:{{site.feedback_email}}">{{site.feedback_email}}</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="{{ " /js/jquery.navgoco.min.js " | prepend: site.baseurl }}"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/home/scrollreveal.min.js"></script>
+<script src="js/home/jquery.easing.min.js"></script>
+<script src="js/home/jquery.fittext.js"></script>
+
+<script src="{{ " /js/home.js " | prepend: site.baseurl }}"></script>

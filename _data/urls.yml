@@ -1,15 +1,19 @@
 
 register:
   title: "Register"
-  url: "https://easytrips.azurewebsites.net/Account/Register"
-  link: "<a href='https://easytrips.azurewebsites.net/Account/Register' title='Register for Easy Trips'>Register</a>"
+  url: "https://easytrips.azurewebsites.net/User/Account/Register"
+  link: "<a href='https://easytrips.azurewebsites.net/User/Account/Register' title='Register for Easy Trips'>Register</a>"
 
 
 login:
   title: "Login"
-  url: "https://easytrips.azurewebsites.net/Account/Login"
-  link: "<a href='https://easytrips.azurewebsites.net/Account/Login' title='Login to Easy Trips'>Login</a>"
+  url: "https://easytrips.azurewebsites.net/User/Account/Login"
+  link: "<a href='https://easytrips.azurewebsites.net/User/Account/Login' title='Login to Easy Trips'>Login</a>"
 
+contact:
+  title: "Contact Us"
+  url: "mailto:info@easytrips.xyz"
+  link: "<a href='mailto:info@easytrips.xzy' title='Send an emali'>Contact Us</a>"
 
 mydoc_release_notes_50:
   title: "5.0 Release notes"

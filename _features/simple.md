@@ -2,8 +2,8 @@
 title: Simple
 benefit: Easy to Use
 keywords: 
-summary: "Accomplish what you need without the fuss (no matter who you are)."
-icon: check
+summary: "Accomplish what you need without the fuss."
+icon: smile-o
 featured: true
 order: 1
 showlink: false
